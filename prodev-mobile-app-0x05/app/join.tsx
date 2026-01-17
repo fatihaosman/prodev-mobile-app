@@ -74,7 +74,7 @@ export default function Signin() {
 
        <View style={styles.signupgroup}>
   <Text style={styles.signupTitleText}>Already have an account?</Text>
-  <TouchableOpacity onPress={() => router.push({ pathname: "/join" })}>
+  <TouchableOpacity onPress={() => router.push({ pathname: "/signin" })}>
     <Text style={styles.signupSubTitleText}> signin</Text>
   </TouchableOpacity>
 </View>
