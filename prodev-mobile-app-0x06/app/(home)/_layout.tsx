@@ -26,13 +26,11 @@ const HomeRootLayout = () => {
         headerShown: true,
         tabBarIcon: ({ color }) => <Ionicons name="chatbubbles-outline" size={24} color={color} />
       }} />
-        <Tabs.Screen
-        name="profile"
-        options={{
-          title: 'Profile',
-          // Notice: NO headerShown here
-          tabBarIcon: ({ color }) => <FontAwesome name="user-o" size={24} color={color} />,
-        }} />
+       <Tabs.Screen name="profile" options={{
+        title: 'Profile',
+        headerShown: false,
+        tabBarIcon: ({ color }) => <FontAwesome name="user-o" size={24} color="black" />
+      }} />
     </Tabs>
   )
 }
