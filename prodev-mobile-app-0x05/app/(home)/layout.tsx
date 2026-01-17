@@ -32,6 +32,7 @@ const HomeRootLayout = () => {
         tabBarIcon: ({ color }) => <FontAwesome name="user-o" size={24} color="black" />
       }} />
     </Tabs>
+    
   )
 }
 

@@ -24,7 +24,7 @@ const PropertyListingCard: React.FC<PropertyListingProps> = ({
             {favorite ? (
               <FontAwesome name="heart" size={24} color="#E50000" />
             ) : (
-              <EvilIcons name="heart" size={32} color="white" />
+              <EvilIcons name="heart" size={35} color="white" />
             )}
           </View>
         </View>
